@@ -1,7 +1,7 @@
     1  whoami
     2  whoaim
     3  whoami
-    4  echo "Hello world"
+    4  echo "Helo world"
     5  apropos -s1 time
     6  date
     7  cal

@@ -49,7 +49,7 @@
    40  mkdir dir
    41  cd dir
    42  touch new_file
-   43  echo "file 2">> new_file 
+   43  echo "file2">> new_file 
    44  ls
    45  ll new_file 
    46  cd ..

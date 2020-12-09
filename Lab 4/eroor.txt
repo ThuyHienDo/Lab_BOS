@@ -1,0 +1,24 @@
+total 92
+-rw-rw-r--. 1 hien98 hien98  66 Oct 25 08:34 argu2.sh
+-rwxrwxr-x. 1 hien98 hien98  44 Oct 25 08:31 argu.sh
+-rw-rw-r--. 1 hien98 hien98  39 Oct 22 00:17 count_txt.sh
+-rw-rw-r--. 1 hien98 hien98 188 Oct 23 04:27 cpu_sd.sh
+-rw-rw-r--. 1 hien98 hien98 272 Oct 14 23:55 echo
+-rw-rw-r--. 1 hien98 hien98 260 Oct 22 03:46 file_an.sh
+-rw-rw-r--. 1 hien98 hien98 118 Oct 25 08:17 filetxt.sh
+-rw-rw-r--. 1 hien98 hien98  43 Oct 23 04:41 five_mem.sh
+-rw-rw-r--. 1 hien98 hien98  24 Oct 23 05:08 khongbiet.sh
+-rwxrwxr-x. 1 hien98 hien98 128 Oct 14 23:45 logfile.sh
+-rw-rw-r--. 1 hien98 hien98  61 Oct 21 10:55 make_shared.sh
+-rwxrwxr-x. 1 hien98 hien98  47 Oct 25 07:10 mofiletruoc.sh
+-rw-rw-r--. 1 hien98 hien98  37 Oct 26 03:06 ptgrep.sh
+-rw-rw-r--. 1 hien98 hien98 199 Oct 25 08:26 sixzero.sh
+-rw-rw-r--. 1 hien98 hien98  21 Oct 22 00:36 sort_env.sh
+-rw-rw-r--. 1 hien98 hien98 524 Oct 25 12:21 test123.sh
+-rw-rw-r--. 1 hien98 hien98 124 Oct 25 12:07 testrandom5number.sh
+-rw-rw-r--. 1 hien98 hien98 453 Oct 26 02:49 testtype.sh
+-rw-rw-r--. 1 hien98 hien98  24 Oct 22 03:50 timee.sh
+-rw-rw-r--. 1 hien98 hien98  33 Oct 22 01:29 tim_file.sh
+-rw-rw-r--. 1 hien98 hien98 292 Oct 23 05:31 typder.sh
+-rw-rw-r--. 1 hien98 hien98  55 Oct 26 03:27 userhome.sh
+-rw-rw-r--. 1 hien98 hien98  59 Oct 22 00:41 xinchao.sh

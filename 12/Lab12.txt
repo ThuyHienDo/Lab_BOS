@@ -1,0 +1,85 @@
+    1  ldd /bin/ls |grep selinux
+    2  ls -l /etc/selinux
+    3  ls -l /etc/selinux/targeted/
+    4  id -Z
+    5  ls -Z /etc/passwd /etc/group /etc/shadow
+    6  ls -Z /etc/login.defs /etc/sudoers
+    7  ls -Z /usr/bin/passwd
+    8  ls -Z /usr/sbin/useradd 
+    9  getfattr -n security.selinux /etc/passwd
+   10  ps Zaux
+   11  ls /proc/$$/attr
+   12  ps Z
+   13  gedit /etc/selinux/config
+   14  sestatus
+   15  sudo gedit /etc/selinux/config 
+   16  sestatus
+   17  setenforce 1
+   18  sudo setenforce 1
+   19  sestatus
+   20  sudo echo 1> /sys/fs/selinux/enforce
+   21  su
+   22  sestatus
+   23  whereis grubconf
+   24  where is grub_conf
+   25  whereis grub_conf
+   26  yum install setools-console
+   27  sudo yum install setools-console
+   28  seinfo
+   29  sudo gedit /etc/selinux/config 
+   30  sudo vim /etc/selinux/config
+   31  seinfo -cfile -x
+   32  seinfo -dir -x
+   33  seinfo -blk_file
+   34  seinfo -cblk_file -x
+   35  seinfo -cchr_file -x
+   36  seinfo -cInk_file -x
+   37  seinfo -cink_file -x
+   38  seinfo -clnk_file -x
+   39  seinfo -cfifo_file -x
+   40  seinfo -csock_file -x
+   41  seinfo -csock_file -cfilesystem -x
+   42  seinfo -csock_file  -x
+   43  seinfo -cdir  -x
+   44  cat /etc/selinux/targeted/contexts/files/file_contexts.homedirs
+   45  sudo semanage fcontext -l
+   46  touch filese
+   47  ll -Z filese
+   48  sesearch -T -s httpd_t var_log_t
+   49  sudo sesearch -T -s httpd_t var_log_t
+   50  sudo sesearch -T -s httpd_t -t var_log_t
+   51  sudo sesearch -T -s httpd_t -t tmp_t
+   52  sesearch -A -s passwd_t -t passwd_exec_t
+   53  sesearch -A -s user_t -t passwd_exec_t
+   54  sesearch -A -s user_t -t passwd_t
+   55  cp filese /proc/
+   56  ll -
+   57  ll -Z /proc/filesystems 
+   58  ls -Z filese
+   59  chcon -t samba_share_t filese
+   60  ls -Z filese
+   61  cp filese filese1
+   62  ls -Z filese1
+   63  /sbin/restorecon -v filese
+   64  su
+   65  touch /etc/file1
+   66  ls -Z /etc/file1
+   67  /usr/sbin/semanage fcontext -a -t samba_share_t /etc/file1
+   68  ls -Z /etc/file1
+   69  cat /etc/selinux/targeted/contexts/files/file_contexts.local | grep /etc/file1
+   70  /sbin/restorecon -v /etc/file1
+   71  rm -i /etc/file1
+   72  /usr/sbin/semanage fcontext -d /etc/file1
+   73  restorecon 
+   74  ll /etc/
+   75  ls -Z /etc/passwd
+   76  ls -Z /etc/virc
+   77  /usr/sbin/semanage boolean -l
+   78  ftp_home_dir
+   79  getsebool -a
+   80  getsebool allow_console_login
+   81  ausearch -m avc -ts recent
+   82  seinfo |grep -E '(dontaudit|allow)'
+   83  sudo yum install policycoreutil-gui
+   84  system-config-selinux 
+   85  history >> Lab12.txt 
